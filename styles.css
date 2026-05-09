@@ -1,0 +1,84 @@
+body {
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(56, 54, 54);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+}
+
+.numbplace { 
+    padding: 10px 12px;
+    border-radius: 10px;
+    width: 700px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+#plus {
+    padding: 10px 100px ;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+}
+
+#minus {
+    padding: 10px 100px ;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+}
+
+#multiply {
+
+    padding: 10px 100px ;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgb(17, 218, 185);
+    color: white;
+}
+
+#divide {
+
+    padding: 10px 100px ;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgb(218, 137, 16);
+    color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+#submit {
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background: rgb(56, 54, 54);
+    border: 3px solid rgb(0, 116, 161);
+    color:rgb(0, 116, 161); 
+}
+
+#result {
+    background: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5000px;
+    border: 3px solid black;
+}
+
+
+
+
